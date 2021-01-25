@@ -1,3 +1,6 @@
 import datetime
-now = datetime.datetime.now()
-print (now.strftime("%Y-%m-%d %H:%M:%S"))
+date = datetime.date()
+print (date.strftime("%Y-%m-%d"))
+
+now = datetime.time
+print(date)
